@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>calculator</title>
+</head>
+<body>
+  <div class="container">
+    <div class="calculator">
+      <div class="screen">
+        <div class="upper-screen"><p class="upper-screen-p"></p></div>
+        <div class="lower-screen"><p class="lower-screen-p"></p></div>
+      </div>
+      <div class="extra-op">
+        <button class="ops extra">^</button>
+        <button id="factorial" class="numbers">!</button>
+        <button class="ops extra">%</button>
+        <button id="sqrt" class="numbers">√</button>
+        <button id="pi" class="numbers">π</button>
+      </div>
+      <div class="btns">
+        <div class="allNumbers">
+          <div class="upper-row">
+            <button class="numbers">7</button>
+            <button class="numbers">8</button>
+            <button class="numbers">9</button>
+          </div>
+          <div class="middle-row">
+            <button class="numbers">4</button>
+            <button class="numbers">5</button>
+            <button class="numbers">6</button>
+          </div>
+          <div class="lower-row">
+            <button class="numbers">1</button>
+            <button class="numbers">2</button>
+            <button class="numbers">3</button>  
+          </div>
+          <div class="extra-row">
+            <button  class="numbers span btn-zero">0</button>
+            <button class="numbers" id="dot">.</button>
+          </div>
+        </div>
+        <div class="operand">
+          <div class="upper-row-op">
+            <button class="control AC">AC</button>
+            <button class="control delete">CE</button>
+          </div>
+          <div class="middle-row-op">
+            <button class="ops op">/</button>
+            <button class="ops op">*</button>
+          </div>
+          <div class="lower-row-op">
+            <div class="ver-operands">
+              <button class="ops op">+</button>
+              <button class="ops op">-</button>
+            </div>
+            <div class="equal">
+              <button class="btn-result">=</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="main.js"></script>
+</html>
